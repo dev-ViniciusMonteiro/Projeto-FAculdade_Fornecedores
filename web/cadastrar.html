@@ -16,7 +16,7 @@
     </nav>
     <div class="container mt-4">
         <h2>Cadastrar novo produto</h2>
-        <form class="row">
+        <form class="row" id="botao">
             <div class="mb-3">
                 <label for="empresa" class="form-label">Empresa</label>
                 <input type="text" class="form-control" id="empresa"></input>
@@ -34,7 +34,7 @@
                 <input type="number" class="form-control" id="valor">
             </div>
             <div class="col-12 text-end">
-                <button type="button" onclick="cadastrar()" class="btn btn-primary">Cadastrar</button>
+                <button type="submit" onclick="cadastrar()" class="btn btn-primary">Cadastrar</button>
             </div>
         </form>
     </div>
